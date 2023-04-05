@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(134, 211, 238);
+}
+
+
+.block_btns {
+    text-align: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+.block{
+    margin-top: 30px;
+}
+
+.block_inner-title{
+    margin-bottom: 10px;
+}
+
+.block_total {
+  position: relative;
+  top: 100px;
+  font-weight: 900;
+}
+
+#dist{
+    border-radius: 4px;
+
+}
+
+#fines{
+    border-radius: 4px;
+
+}
+
+#weight{
+    border-radius: 4px;
+
+}
+
+#total{
+    margin-top: 50px;
+    
+}
+.count{
+    width: 100px;
+    background-color: rgb(1, 128, 32);
+    color: beige;
+    border-radius: 4px;
+}
+.reset{
+    width: 100px;
+    background-color: rgb(168, 0, 0);
+    color: beige;
+    border-radius: 4px;
+}
+
+.btn{
+    position: relative;
+    top: 10px;
+}
+.loading{
+    transition: 0.8s ease;
+    height: 150px;
+    font-size: 50px;
+    font-family: cursive;
+    color: rgb(33, 22, 115);
+    margin-top: 50px;
+}
+
+.getFine{
+    transition: 0.8s ease;
+    height: 150px;
+    font-size: 50px;
+    font-family: cursive;
+    color: rgb(33, 22, 115);
+    margin-top: 50px;
+}
+.count:focus{
+ 
+    background-color: rgb(247, 247, 247);
+    color: rgb(1, 128, 32);
+}
+
+.reset:active{
+    background-color: rgb(247, 247, 247);
+    color: rgb(168, 0, 0);
+}
